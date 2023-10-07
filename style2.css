@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(#cb1d62,#532580d1);
+    background-size: 100% 50%;
+}
+#container{
+
+    width: 800px;
+    height: 400px;
+    border: 7px solid purple;
+    margin: auto;
+    background: linear-gradient(#d17c9e,#cfc1cdd1,#b52d8ad1);
+    margin-top: 90px;
+    border-radius: 5px;
+}
+.instructions{
+
+    margin-left: 20px;
+}
+li{
+    line-height: 1.6rem;
+}
+.settings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+#winningScore{
+    padding: 5px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 5px;
+
+}
+#startGame{
+    padding: 5px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: black;
+    opacity: 80%;
+    border: 1px solid #b52d8ad1;
+
+}
+#startGame:hover{
+    opacity: 100%;
+}

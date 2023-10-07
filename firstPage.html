@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css"> 
+    <title>Dice Game</title>
+</head>
+<body>
+    <section id="container">
+        <h1>Game Instructions</h1>
+    <section class="instructions">
+        <ul>
+            <li>Roll the dice (at least once) and accumulate the result in "current."</li>
+            <li>You can roll again or click "Hold" to save the points from "Current" and end the turn.</li>
+            <li>Note! If you get 6-6 - you will lose all points from "current" and the turn will go to your opponent.</li>
+            <li>If you managed to reach exactly the target score - you win. If you passed it - you lose.</li>
+        </ul>
+    </section>
+    
+    <section class="settings">
+        <h2>Please select a target score</h2>
+        <select id="winningScore">
+            <option value="50">50</option>
+            <option value="100" selected>100</option>
+            <option value="200">200</option>
+            <option value="250">200</option>
+            <option value="300">200</option>
+            
+        </select>
+        <button id="startGame">Start Game</button>
+    </section>
+</section>
+
+    <script src="firstpage.js"></script> 
+</body>
+</html>
